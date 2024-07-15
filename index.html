@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Naves Espaciales</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Tienda de Naves Espaciales</h1>
+        <div class="cart-icon">
+            <img src="cart-icon.png" alt="Carrito de Compras">
+            <span id="cart-count">0</span>
+        </div>
+    </header>
+    <section class="company-info">
+        <img src="darkvhader.jpg" alt="Dark Vhader">
+        <div class="text">
+            <h2>Sobre Nosotros</h2>
+            <p>Somos la empresa líder en venta de naves espaciales en la galaxia. Nuestra misión es proporcionar las mejores naves para tus aventuras intergalácticas y nuestra visión es conquistar el mercado espacial con innovación y calidad.</p>
+        </div>
+    </section>
+    <main>
+        <section class="spaceship">
+            <img src="nave1.jpg" alt="Nave Espacial 1">
+            <h2>Nave Espacial 1</h2>
+            <p>Precio: $1,000,000</p>
+            <button onclick="addToCart('Nave Espacial 1', 1000000)">Añadir al Carrito</button>
+        </section>
+        <section class="spaceship">
+            <img src="nave2.jpg" alt="Nave Espacial 2">
+            <h2>Nave Espacial 2</h2>
+            <p>Precio: $2,000,000</p>
+            <button onclick="addToCart('Nave Espacial 2', 2000000)">Añadir al Carrito</button>
+        </section>
+        <section class="spaceship">
+            <img src="nave3.jpg" alt="Nave Espacial 3">
+            <h2>Nave Espacial 3</h2>
+            <p>Precio: $3,000,000</p>
+            <button onclick="addToCart('Nave Espacial 3', 3000000)">Añadir al Carrito</button>
+        </section>
+    </main>
+    <section class="location">
+        <img src="deathstar.jpg" alt="Estrella de la Muerte">
+        <div class="text">
+            <h2>Nuestra Ubicación</h2>
+            <p>Nos encontramos en la galaxia más cercana a la tuya, en la majestuosa Estrella de la Muerte.</p>
+        </div>
+    </section>
+    <section class="video-demo">
+        <h2>Demostración de Ventas</h2>
+        <video controls>
+            <source src="demo.mp4" type="video/mp4">
+            Tu navegador no soporta la reproducción de videos.
+        </video>
+    </section>
+    <footer>
+        <p>&copy; 2024 Dark Vhader. Todos los derechos reservados.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
