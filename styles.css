@@ -1,15 +1,16 @@
 body {
     font-family: Arial, sans-serif;
+    font: size 60px;
     margin: 0;
     padding: 0;
-    color: white;
+    color: rgb(245, 235, 237);
     background: url('stars-bg.jpg') no-repeat center center fixed;
     background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    height: 100%;
+    height: 150%;
 }
 
 header {
@@ -29,15 +30,16 @@ header {
 }
 
 .cart-icon img {
-    width: 30px;
-    height: 30px;
+    width: 60px;
+    height: 60px;
+    display: flex;
 }
 
 #cart-count {
     position: absolute;
     top: -10px;
     right: -10px;
-    background-color: red;
+    background-color: rgb(41, 112, 227);
     color: white;
     border-radius: 50%;
     padding: 5px 10px;
@@ -52,14 +54,22 @@ header {
     text-align: left;
 }
 
-.company-info img, .location img {
-    width: 150px;
-    height: 150px;
+.company-info img{
+    width: 400px;
+    height: 400px;
     margin-right: 20px;
+    position: center;
+}
+.location img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    position: center;
 }
 
 .text {
     max-width: 600px;
+    
 }
 
 main {
@@ -90,7 +100,7 @@ main {
 .spaceship p {
     font-size: 1.2em;
     margin: 10px 0;
-}
+    }
 
 button {
     background-color: #007bff;
